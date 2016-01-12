@@ -497,3 +497,149 @@
 	<iostream>
 	<cstring>
 
+1452624227 source:/media/kamil/workspace/Programowanie/,GRA/Battle-of-Hrubieszow/main.cpp
+	<algorithm>
+	<string>
+	<iostream>
+	<sstream>
+	<string>
+	<fstream>
+	<math.h>
+	<random>
+	<atomic>
+	<cstring>
+	<SFML/Graphics.hpp>
+	<SFML/Audio.hpp>
+	"RapidXML/rapidxml.hpp"
+	"RapidXML/rapidxml_utils.hpp"
+	"RapidXML/rapidxml_print.hpp"
+	"lua/LVM.h"
+	"lua/api.h"
+	"collision/collision.h"
+	"base/safeNumbers.h"
+	"base/math.h"
+	"base/xmlReader.h"
+	"base/settings.h"
+	"base/SFMLstream.h"
+	"base/languages.h"
+	"base/textureManager.h"
+	"base/preinit.h"
+	"base/cursor.h"
+	"base/animation.h"
+	"base/controls.h"
+	"base/tile.h"
+	"base/console.h"
+	"base/numbers.h"
+	"base/spaceObjects.h"
+	"GUI/button.h"
+	"GUI/slider.h"
+	"menu/settingsScreen.h"
+	"battle/pause.h"
+	"battle/battle_classess.h"
+	"battle/battle_init.h"
+	"battle/battle_drawer.h"
+	"battle/battle.h"
+	"menu/loadingScreen.h"
+	"menu/menu.h"
+	"lua/advencedAPI.h"
+
+1452624227 /media/kamil/workspace/Programowanie/,GRA/Battle-of-Hrubieszow/RapidXML/rapidxml.hpp
+	<cstdlib>
+	<cassert>
+	<new>
+	<exception>
+
+1452624227 /media/kamil/workspace/Programowanie/,GRA/Battle-of-Hrubieszow/RapidXML/rapidxml_utils.hpp
+	"rapidxml.hpp"
+	<vector>
+	<string>
+	<fstream>
+	<stdexcept>
+
+1452624227 /media/kamil/workspace/Programowanie/,GRA/Battle-of-Hrubieszow/RapidXML/rapidxml_print.hpp
+	"rapidxml.hpp"
+	<ostream>
+	<iterator>
+
+1452624227 /media/kamil/workspace/Programowanie/,GRA/Battle-of-Hrubieszow/lua/LVM.h
+	"lua5.2/lua.h"
+	"lua5.2/lualib.h"
+	"lua5.2/lauxlib.h"
+
+1452624227 /media/kamil/workspace/Programowanie/,GRA/Battle-of-Hrubieszow/lua/api.h
+
+1452624227 /media/kamil/workspace/Programowanie/,GRA/Battle-of-Hrubieszow/collision/collision.h
+
+1452624227 /media/kamil/workspace/Programowanie/,GRA/Battle-of-Hrubieszow/base/safeNumbers.h
+
+1452624227 /media/kamil/workspace/Programowanie/,GRA/Battle-of-Hrubieszow/base/math.h
+
+1452624227 /media/kamil/workspace/Programowanie/,GRA/Battle-of-Hrubieszow/base/xmlReader.h
+
+1452624227 /media/kamil/workspace/Programowanie/,GRA/Battle-of-Hrubieszow/base/settings.h
+
+1452624227 /media/kamil/workspace/Programowanie/,GRA/Battle-of-Hrubieszow/base/SFMLstream.h
+	"soundsManager.h"
+
+1452624227 /media/kamil/workspace/Programowanie/,GRA/Battle-of-Hrubieszow/base/soundsManager.h
+
+1452624227 /media/kamil/workspace/Programowanie/,GRA/Battle-of-Hrubieszow/base/languages.h
+
+1452624227 /media/kamil/workspace/Programowanie/,GRA/Battle-of-Hrubieszow/base/textureManager.h
+
+1452624227 /media/kamil/workspace/Programowanie/,GRA/Battle-of-Hrubieszow/base/preinit.h
+
+1452624227 /media/kamil/workspace/Programowanie/,GRA/Battle-of-Hrubieszow/base/cursor.h
+
+1452624227 /media/kamil/workspace/Programowanie/,GRA/Battle-of-Hrubieszow/base/animation.h
+
+1452624227 /media/kamil/workspace/Programowanie/,GRA/Battle-of-Hrubieszow/base/controls.h
+
+1452624227 /media/kamil/workspace/Programowanie/,GRA/Battle-of-Hrubieszow/base/tile.h
+
+1452624227 /media/kamil/workspace/Programowanie/,GRA/Battle-of-Hrubieszow/base/console.h
+
+1452624227 /media/kamil/workspace/Programowanie/,GRA/Battle-of-Hrubieszow/base/numbers.h
+
+1452624227 /media/kamil/workspace/Programowanie/,GRA/Battle-of-Hrubieszow/base/spaceObjects.h
+
+1452624227 /media/kamil/workspace/Programowanie/,GRA/Battle-of-Hrubieszow/GUI/button.h
+
+1452624227 /media/kamil/workspace/Programowanie/,GRA/Battle-of-Hrubieszow/GUI/slider.h
+
+1452624227 /media/kamil/workspace/Programowanie/,GRA/Battle-of-Hrubieszow/menu/settingsScreen.h
+
+1452624227 /media/kamil/workspace/Programowanie/,GRA/Battle-of-Hrubieszow/battle/pause.h
+
+1452624227 /media/kamil/workspace/Programowanie/,GRA/Battle-of-Hrubieszow/battle/battle_classess.h
+	"classes/weapons.h"
+	"classes/drone.h"
+	"classes/spaceship.h"
+	"classes/bullets.h"
+	"classes/souls.h"
+	"classes/enemies.h"
+
+1452624227 /media/kamil/workspace/Programowanie/,GRA/Battle-of-Hrubieszow/battle/classes/weapons.h
+
+1452624227 /media/kamil/workspace/Programowanie/,GRA/Battle-of-Hrubieszow/battle/classes/drone.h
+
+1452624227 /media/kamil/workspace/Programowanie/,GRA/Battle-of-Hrubieszow/battle/classes/spaceship.h
+
+1452624227 /media/kamil/workspace/Programowanie/,GRA/Battle-of-Hrubieszow/battle/classes/bullets.h
+
+1452624227 /media/kamil/workspace/Programowanie/,GRA/Battle-of-Hrubieszow/battle/classes/souls.h
+
+1452624227 /media/kamil/workspace/Programowanie/,GRA/Battle-of-Hrubieszow/battle/classes/enemies.h
+
+1452624227 /media/kamil/workspace/Programowanie/,GRA/Battle-of-Hrubieszow/battle/battle_init.h
+
+1452624227 /media/kamil/workspace/Programowanie/,GRA/Battle-of-Hrubieszow/battle/battle_drawer.h
+
+1452624227 /media/kamil/workspace/Programowanie/,GRA/Battle-of-Hrubieszow/battle/battle.h
+
+1452624227 /media/kamil/workspace/Programowanie/,GRA/Battle-of-Hrubieszow/menu/loadingScreen.h
+
+1452624227 /media/kamil/workspace/Programowanie/,GRA/Battle-of-Hrubieszow/menu/menu.h
+
+1452624227 /media/kamil/workspace/Programowanie/,GRA/Battle-of-Hrubieszow/lua/advencedAPI.h
+
