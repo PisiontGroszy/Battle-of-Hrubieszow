@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Root>
+    <animation file="assets/graphics/bullets/autoRockets/explosion.animation"/>
+    <animation file="assets/graphics/bullets/autoTurret/explosion.animation"/>
+    <animation file="assets/graphics/bullets/enemyStandard/explosion.animation"/>
+    <animation file="assets/graphics/bullets/laser/explosion.animation"/>
+    <animation file="assets/graphics/bullets/minigun/explosion.animation"/>
+    <animation file="assets/graphics/bullets/saw/explosion.animation"/>
+    <animation file="assets/graphics/bullets/shotgun/explosion.animation"/>
+    <animation file="assets/graphics/bullets/standard/explosion.animation"/>
+    <animation file="assets/graphics/spaceship/blood.animation"/>
+    <animation file="assets/graphics/spaceship/destroy.animation"/>
+</Root>

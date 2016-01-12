@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Root>
+    <weapon codeName="laser" accuracyBonus="0" ammoUsage="10" accuracy="1000" modifier="0" fireRate="100" damage="5" speed="0" mass="0" bulletsPerShot="1"/>
+    <weapon codeName="minigun" accuracyBonus="10" ammoUsage="1" accuracy="16" modifier="1" fireRate="100" damage="5" speed="7" mass="1" bulletsPerShot="2"/>
+    <weapon codeName="shotgun" accuracyBonus="0" ammoUsage="15" accuracy="15" modifier="2" fireRate="20" damage="15" speed="6" mass="2" bulletsPerShot="20"/>
+    <weapon codeName="standard" accuracyBonus="4" ammoUsage="0" accuracy="20" modifier="3" fireRate="101" damage="20" speed="6" mass="6" bulletsPerShot="16"/>
+    <weapon codeName="saw" accuracyBonus="4" ammoUsage="0" accuracy="0" modifier="0" fireRate="100" damage="10" speed="6" mass="30" bulletsPerShot="1"/>
+</Root>

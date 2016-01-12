@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Root>
+    <weapon codeName="autoTurret" accuracyBonus="0" ammoUsage="0" accuracy="1000" modifier="2" fireRate="90" damage="10" speed="6" mass="4" bulletsPerShot="1"/>
+    <weapon codeName="autoRockets" accuracyBonus="0" ammoUsage="0" accuracy="0" modifier="10" fireRate="10" damage="100" speed="20" mass="40" bulletsPerShot="1"/>
+</Root>
+

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Root>
+    <weapon codeName="enemyStandard" accuracyBonus="4" ammoUsage="20" accuracy="20" modifier="3" fireRate="70" damage="20" speed="6" mass="6" bulletsPerShot="1"/>
+</Root>

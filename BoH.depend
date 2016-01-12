@@ -1,0 +1,499 @@
+# depslib dependency file v1.0
+1435062319 source:/media/kamil/workspace/Programowanie/Pony Killer/main.cpp
+	<stack>
+	<iostream>
+	<math.h>
+	<stdlib.h>
+	<SFML/Graphics.hpp>
+	"math.h"
+	"preinit.h"
+	"cursor.h"
+	"battle_classess.h"
+	"battle_init.h"
+	"battle_drawer.h"
+	"battle.h"
+
+1434958961 /media/kamil/workspace/Programowanie/Pony Killer/classess.h
+
+1434894228 /media/kamil/workspace/Programowanie/Pony Killer/init.h
+
+1434958638 /media/kamil/workspace/Programowanie/Pony Killer/drawer.h
+
+1434958638 /media/kamil/workspace/Programowanie/Pony Killer/math.h
+
+1434959437 /media/kamil/workspace/Programowanie/Pony Killer/cursor.h
+
+1435062365 /media/kamil/workspace/Programowanie/Pony Killer/battle_classess.h
+
+1434983494 /media/kamil/workspace/Programowanie/Pony Killer/battle_init.h
+
+1434987666 /media/kamil/workspace/Programowanie/Pony Killer/battle_drawer.h
+
+1435001406 /media/kamil/workspace/Programowanie/Pony Killer/battle.h
+
+1435001506 /media/kamil/workspace/Programowanie/Pony Killer/preinit.h
+
+1442053098 source:/media/kamil/workspace/Programowanie/,GRA/Pony Killer/main.cpp
+	<stack>
+	<string>
+	<iostream>
+	<sstream>
+	<string>
+	<fstream>
+	<math.h>
+	<SFML/Graphics.hpp>
+	<SFML/Audio.hpp>
+	<time.h>
+	<RapidXML/rapidxml.hpp>
+	<RapidXML/rapidxml_print.hpp>
+	<RapidXML/rapidxml_utils.hpp>
+	"collision/collision.h"
+	"base/textureManager.h"
+	"base/math.h"
+	"base/preinit.h"
+	"base/cursor.h"
+	"base/animation.h"
+	"base/xmlReader.h"
+	"base/controls.h"
+	"base/spaceObjects.h"
+	"GUI/button.h"
+	"battle/pause.h"
+	"battle/battle_classess.h"
+	"battle/battle_init.h"
+	"battle/battle_drawer.h"
+	"battle/battle.h"
+	"menu/menu.h"
+
+1434958638 /media/kamil/workspace/Programowanie/,GRA/Pony Killer/math.h
+
+1435066032 /media/kamil/workspace/Programowanie/,GRA/Pony Killer/preinit.h
+
+1434959437 /media/kamil/workspace/Programowanie/,GRA/Pony Killer/cursor.h
+
+1435222335 /media/kamil/workspace/Programowanie/,GRA/Pony Killer/battle_classess.h
+
+1435077559 /media/kamil/workspace/Programowanie/,GRA/Pony Killer/battle_init.h
+
+1435229710 /media/kamil/workspace/Programowanie/,GRA/Pony Killer/battle_drawer.h
+
+1435223484 /media/kamil/workspace/Programowanie/,GRA/Pony Killer/battle.h
+
+1441120621 /media/kamil/workspace/Programowanie/,GRA/Pony Killer/collision/collision.h
+
+1442060191 /media/kamil/workspace/Programowanie/,GRA/Pony Killer/battle/battle_classess.h
+
+1441736341 /media/kamil/workspace/Programowanie/,GRA/Pony Killer/battle/battle_init.h
+
+1442060219 /media/kamil/workspace/Programowanie/,GRA/Pony Killer/battle/battle_drawer.h
+
+1442059184 /media/kamil/workspace/Programowanie/,GRA/Pony Killer/battle/battle.h
+
+1441120621 /media/kamil/workspace/Programowanie/,GRA/Pony Killer/base/math.h
+
+1442059550 /media/kamil/workspace/Programowanie/,GRA/Pony Killer/base/preinit.h
+
+1442056139 /media/kamil/workspace/Programowanie/,GRA/Pony Killer/base/cursor.h
+
+1441992165 /media/kamil/workspace/Programowanie/,GRA/Pony Killer/base/animation.h
+
+1435846053 /media/kamil/workspace/Programowanie/,GRA/Pony Killer/xmlManager.h
+
+1435846053 /media/kamil/workspace/Programowanie/,GRA/Pony Killer/base/xmlManager.h
+
+1441735741 /media/kamil/workspace/Programowanie/,GRA/Pony Killer/base/xmlReader.h
+
+1441120621 /media/kamil/workspace/Programowanie/,GRA/Pony Killer/GUI/button.h
+
+1442049105 /media/kamil/workspace/Programowanie/,GRA/Pony Killer/battle/pause.h
+
+1441906126 /media/kamil/workspace/Programowanie/,GRA/Pony Killer/menu/menu.h
+
+1442051969 /media/kamil/workspace/Programowanie/,GRA/Pony Killer/base/spaceObjects.h
+
+1441737116 /media/kamil/workspace/Programowanie/,GRA/Pony Killer/base/controls.h
+
+1441992153 /media/kamil/workspace/Programowanie/,GRA/Pony Killer/base/textureManager.h
+
+1442097979 source:/media/kamil/workspace/Programowanie/,GRA/Galactical Meat builds/backups/Sat, 12 Sep 2015 14:17:01 +0200/main.cpp
+	<stack>
+	<string>
+	<iostream>
+	<sstream>
+	<string>
+	<fstream>
+	<math.h>
+	<SFML/Graphics.hpp>
+	<SFML/Audio.hpp>
+	<time.h>
+	<RapidXML/rapidxml.hpp>
+	<RapidXML/rapidxml_print.hpp>
+	<RapidXML/rapidxml_utils.hpp>
+	"collision/collision.h"
+	"base/textureManager.h"
+	"base/math.h"
+	"base/preinit.h"
+	"base/cursor.h"
+	"base/animation.h"
+	"base/xmlReader.h"
+	"base/controls.h"
+	"base/spaceObjects.h"
+	"GUI/button.h"
+	"battle/pause.h"
+	"battle/battle_classess.h"
+	"battle/battle_init.h"
+	"battle/battle_drawer.h"
+	"battle/battle.h"
+	"menu/menu.h"
+
+1442060221 /media/kamil/workspace/Programowanie/,GRA/Galactical Meat builds/backups/Sat, 12 Sep 2015 14:17:01 +0200/collision/collision.h
+
+1442060221 /media/kamil/workspace/Programowanie/,GRA/Galactical Meat builds/backups/Sat, 12 Sep 2015 14:17:01 +0200/base/textureManager.h
+
+1442060221 /media/kamil/workspace/Programowanie/,GRA/Galactical Meat builds/backups/Sat, 12 Sep 2015 14:17:01 +0200/base/math.h
+
+1442095728 /media/kamil/workspace/Programowanie/,GRA/Galactical Meat builds/backups/Sat, 12 Sep 2015 14:17:01 +0200/base/preinit.h
+
+1442060221 /media/kamil/workspace/Programowanie/,GRA/Galactical Meat builds/backups/Sat, 12 Sep 2015 14:17:01 +0200/base/cursor.h
+
+1442060221 /media/kamil/workspace/Programowanie/,GRA/Galactical Meat builds/backups/Sat, 12 Sep 2015 14:17:01 +0200/base/animation.h
+
+1442060221 /media/kamil/workspace/Programowanie/,GRA/Galactical Meat builds/backups/Sat, 12 Sep 2015 14:17:01 +0200/base/xmlReader.h
+
+1442060221 /media/kamil/workspace/Programowanie/,GRA/Galactical Meat builds/backups/Sat, 12 Sep 2015 14:17:01 +0200/base/controls.h
+
+1442060221 /media/kamil/workspace/Programowanie/,GRA/Galactical Meat builds/backups/Sat, 12 Sep 2015 14:17:01 +0200/base/spaceObjects.h
+
+1442060221 /media/kamil/workspace/Programowanie/,GRA/Galactical Meat builds/backups/Sat, 12 Sep 2015 14:17:01 +0200/GUI/button.h
+
+1442060221 /media/kamil/workspace/Programowanie/,GRA/Galactical Meat builds/backups/Sat, 12 Sep 2015 14:17:01 +0200/battle/pause.h
+
+1442098174 /media/kamil/workspace/Programowanie/,GRA/Galactical Meat builds/backups/Sat, 12 Sep 2015 14:17:01 +0200/battle/battle_classess.h
+
+1442060221 /media/kamil/workspace/Programowanie/,GRA/Galactical Meat builds/backups/Sat, 12 Sep 2015 14:17:01 +0200/battle/battle_init.h
+
+1442097848 /media/kamil/workspace/Programowanie/,GRA/Galactical Meat builds/backups/Sat, 12 Sep 2015 14:17:01 +0200/battle/battle_drawer.h
+
+1442097979 /media/kamil/workspace/Programowanie/,GRA/Galactical Meat builds/backups/Sat, 12 Sep 2015 14:17:01 +0200/battle/battle.h
+
+1442060221 /media/kamil/workspace/Programowanie/,GRA/Galactical Meat builds/backups/Sat, 12 Sep 2015 14:17:01 +0200/menu/menu.h
+
+1452534905 source:/media/kamil/workspace/Programowanie/,GRA/SpaceViolence/main.cpp
+	<algorithm>
+	<string>
+	<iostream>
+	<sstream>
+	<string>
+	<fstream>
+	<math.h>
+	<random>
+	<atomic>
+	<cstring>
+	<SFML/Graphics.hpp>
+	<SFML/Audio.hpp>
+	"RapidXML/rapidxml.hpp"
+	"RapidXML/rapidxml_utils.hpp"
+	"RapidXML/rapidxml_print.hpp"
+	"lua/LVM.h"
+	"lua/api.h"
+	"collision/collision.h"
+	"base/safeNumbers.h"
+	"base/math.h"
+	"base/xmlReader.h"
+	"base/settings.h"
+	"base/SFMLstream.h"
+	"base/languages.h"
+	"base/textureManager.h"
+	"base/preinit.h"
+	"base/cursor.h"
+	"base/animation.h"
+	"base/controls.h"
+	"base/tile.h"
+	"base/console.h"
+	"base/numbers.h"
+	"base/spaceObjects.h"
+	"GUI/button.h"
+	"GUI/slider.h"
+	"menu/settingsScreen.h"
+	"battle/pause.h"
+	"battle/battle_classess.h"
+	"battle/battle_init.h"
+	"battle/battle_drawer.h"
+	"battle/battle.h"
+	"menu/loadingScreen.h"
+	"menu/menu.h"
+	"lua/advencedAPI.h"
+
+1449047761 /media/kamil/workspace/Programowanie/,GRA/SpaceViolence/collision/collision.h
+
+1452357315 /media/kamil/workspace/Programowanie/,GRA/SpaceViolence/base/textureManager.h
+
+1449047775 /media/kamil/workspace/Programowanie/,GRA/SpaceViolence/base/math.h
+
+1452370117 /media/kamil/workspace/Programowanie/,GRA/SpaceViolence/base/preinit.h
+
+1449047775 /media/kamil/workspace/Programowanie/,GRA/SpaceViolence/base/cursor.h
+
+1452357315 /media/kamil/workspace/Programowanie/,GRA/SpaceViolence/base/animation.h
+
+1449047775 /media/kamil/workspace/Programowanie/,GRA/SpaceViolence/base/xmlReader.h
+
+1451317120 /media/kamil/workspace/Programowanie/,GRA/SpaceViolence/base/controls.h
+
+1449047775 /media/kamil/workspace/Programowanie/,GRA/SpaceViolence/base/spaceObjects.h
+
+1449047775 /media/kamil/workspace/Programowanie/,GRA/SpaceViolence/GUI/button.h
+
+1449047775 /media/kamil/workspace/Programowanie/,GRA/SpaceViolence/battle/pause.h
+
+1449047775 /media/kamil/workspace/Programowanie/,GRA/SpaceViolence/battle/battle_classess.h
+	"classes/weapons.h"
+	"classes/drone.h"
+	"classes/spaceship.h"
+	"classes/bullets.h"
+	"classes/souls.h"
+	"classes/enemies.h"
+
+1449047775 /media/kamil/workspace/Programowanie/,GRA/SpaceViolence/battle/battle_init.h
+
+1452418276 /media/kamil/workspace/Programowanie/,GRA/SpaceViolence/battle/battle_drawer.h
+
+1452369925 /media/kamil/workspace/Programowanie/,GRA/SpaceViolence/battle/battle.h
+
+1449047775 /media/kamil/workspace/Programowanie/,GRA/SpaceViolence/menu/menu.h
+
+1442333990 source:/media/kamil/09a74965-1e4f-4aa1-9d9a-2155af69e1de/Programowanie/,GRA/SpaceViolence/main.cpp
+	<stack>
+	<string>
+	<iostream>
+	<sstream>
+	<string>
+	<fstream>
+	<math.h>
+	<SFML/Graphics.hpp>
+	<SFML/Audio.hpp>
+	<time.h>
+	"RapidXML/rapidxml.hpp"
+	"RapidXML/rapidxml_print.hpp"
+	"RapidXML/rapidxml_utils.hpp"
+	"collision/collision.h"
+	"base/textureManager.h"
+	"base/math.h"
+	"base/preinit.h"
+	"base/cursor.h"
+	"base/animation.h"
+	"base/xmlReader.h"
+	"base/controls.h"
+	"base/spaceObjects.h"
+	"GUI/button.h"
+	"battle/pause.h"
+	"battle/battle_classess.h"
+	"battle/battle_init.h"
+	"battle/battle_drawer.h"
+	"battle/battle.h"
+	"menu/menu.h"
+
+1442060221 /media/kamil/09a74965-1e4f-4aa1-9d9a-2155af69e1de/Programowanie/,GRA/SpaceViolence/collision/collision.h
+
+1442257960 /media/kamil/09a74965-1e4f-4aa1-9d9a-2155af69e1de/Programowanie/,GRA/SpaceViolence/base/textureManager.h
+
+1442147977 /media/kamil/09a74965-1e4f-4aa1-9d9a-2155af69e1de/Programowanie/,GRA/SpaceViolence/base/math.h
+
+1442258166 /media/kamil/09a74965-1e4f-4aa1-9d9a-2155af69e1de/Programowanie/,GRA/SpaceViolence/base/preinit.h
+
+1442060221 /media/kamil/09a74965-1e4f-4aa1-9d9a-2155af69e1de/Programowanie/,GRA/SpaceViolence/base/cursor.h
+
+1442256146 /media/kamil/09a74965-1e4f-4aa1-9d9a-2155af69e1de/Programowanie/,GRA/SpaceViolence/base/animation.h
+
+1442060221 /media/kamil/09a74965-1e4f-4aa1-9d9a-2155af69e1de/Programowanie/,GRA/SpaceViolence/base/xmlReader.h
+
+1442060221 /media/kamil/09a74965-1e4f-4aa1-9d9a-2155af69e1de/Programowanie/,GRA/SpaceViolence/base/controls.h
+
+1442259219 /media/kamil/09a74965-1e4f-4aa1-9d9a-2155af69e1de/Programowanie/,GRA/SpaceViolence/base/spaceObjects.h
+
+1442060221 /media/kamil/09a74965-1e4f-4aa1-9d9a-2155af69e1de/Programowanie/,GRA/SpaceViolence/GUI/button.h
+
+1442060221 /media/kamil/09a74965-1e4f-4aa1-9d9a-2155af69e1de/Programowanie/,GRA/SpaceViolence/battle/pause.h
+
+1442256284 /media/kamil/09a74965-1e4f-4aa1-9d9a-2155af69e1de/Programowanie/,GRA/SpaceViolence/battle/battle_classess.h
+
+1442150116 /media/kamil/09a74965-1e4f-4aa1-9d9a-2155af69e1de/Programowanie/,GRA/SpaceViolence/battle/battle_init.h
+
+1442174091 /media/kamil/09a74965-1e4f-4aa1-9d9a-2155af69e1de/Programowanie/,GRA/SpaceViolence/battle/battle_drawer.h
+
+1442258952 /media/kamil/09a74965-1e4f-4aa1-9d9a-2155af69e1de/Programowanie/,GRA/SpaceViolence/battle/battle.h
+
+1442060221 /media/kamil/09a74965-1e4f-4aa1-9d9a-2155af69e1de/Programowanie/,GRA/SpaceViolence/menu/menu.h
+
+1442060221 /media/kamil/09a74965-1e4f-4aa1-9d9a-2155af69e1de/Programowanie/,GRA/SpaceViolence/RapidXML/rapidxml.hpp
+	<cstdlib>
+	<cassert>
+	<new>
+	<exception>
+
+1442060221 /media/kamil/09a74965-1e4f-4aa1-9d9a-2155af69e1de/Programowanie/,GRA/SpaceViolence/RapidXML/rapidxml_print.hpp
+	"rapidxml.hpp"
+	<ostream>
+	<iterator>
+
+1442060221 /media/kamil/09a74965-1e4f-4aa1-9d9a-2155af69e1de/Programowanie/,GRA/SpaceViolence/RapidXML/rapidxml_utils.hpp
+	"rapidxml.hpp"
+	<vector>
+	<string>
+	<fstream>
+	<stdexcept>
+
+1449047761 /media/kamil/workspace/Programowanie/,GRA/SpaceViolence/RapidXML/rapidxml.hpp
+	<cstdlib>
+	<cassert>
+	<new>
+	<exception>
+
+1449047761 /media/kamil/workspace/Programowanie/,GRA/SpaceViolence/RapidXML/rapidxml_print.hpp
+	"rapidxml.hpp"
+	<ostream>
+	<iterator>
+
+1449047761 /media/kamil/workspace/Programowanie/,GRA/SpaceViolence/RapidXML/rapidxml_utils.hpp
+	"rapidxml.hpp"
+	<vector>
+	<string>
+	<fstream>
+	<stdexcept>
+
+1449047846 /media/kamil/workspace/Programowanie/,GRA/SpaceViolence/base/languages.h
+
+1449047775 /media/kamil/workspace/Programowanie/,GRA/SpaceViolence/base/settings.h
+
+1442926604 source:/home/radi/Pulpit/SpaceViolence/main.cpp
+	<stack>
+	<string>
+	<iostream>
+	<sstream>
+	<string>
+	<fstream>
+	<math.h>
+	<SFML/Graphics.hpp>
+	<SFML/Audio.hpp>
+	<time.h>
+	"RapidXML/rapidxml.hpp"
+	"RapidXML/rapidxml_print.hpp"
+	"RapidXML/rapidxml_utils.hpp"
+	"collision/collision.h"
+	"base/xmlReader.h"
+	"base/languages.h"
+	"base/settings.h"
+	"base/textureManager.h"
+	"base/math.h"
+	"base/preinit.h"
+	"base/cursor.h"
+	"base/animation.h"
+	"base/controls.h"
+	"base/spaceObjects.h"
+	"GUI/button.h"
+	"battle/pause.h"
+	"battle/battle_classess.h"
+	"battle/battle_init.h"
+	"battle/battle_drawer.h"
+	"battle/battle.h"
+	"menu/menu.h"
+
+1442060220 /home/radi/Pulpit/SpaceViolence/RapidXML/rapidxml.hpp
+	<cstdlib>
+	<cassert>
+	<new>
+	<exception>
+
+1442060220 /home/radi/Pulpit/SpaceViolence/RapidXML/rapidxml_print.hpp
+	"rapidxml.hpp"
+	<ostream>
+	<iterator>
+
+1442060220 /home/radi/Pulpit/SpaceViolence/RapidXML/rapidxml_utils.hpp
+	"rapidxml.hpp"
+	<vector>
+	<string>
+	<fstream>
+	<stdexcept>
+
+1442060220 /home/radi/Pulpit/SpaceViolence/collision/collision.h
+
+1442060220 /home/radi/Pulpit/SpaceViolence/base/xmlReader.h
+
+1442607066 /home/radi/Pulpit/SpaceViolence/base/languages.h
+
+1442927344 /home/radi/Pulpit/SpaceViolence/base/settings.h
+
+1442257960 /home/radi/Pulpit/SpaceViolence/base/textureManager.h
+
+1442503362 /home/radi/Pulpit/SpaceViolence/base/math.h
+
+1442588744 /home/radi/Pulpit/SpaceViolence/base/preinit.h
+
+1442751014 /home/radi/Pulpit/SpaceViolence/base/cursor.h
+
+1442256146 /home/radi/Pulpit/SpaceViolence/base/animation.h
+
+1442060220 /home/radi/Pulpit/SpaceViolence/base/controls.h
+
+1442259218 /home/radi/Pulpit/SpaceViolence/base/spaceObjects.h
+
+1442060220 /home/radi/Pulpit/SpaceViolence/GUI/button.h
+
+1442435198 /home/radi/Pulpit/SpaceViolence/battle/pause.h
+
+1442929943 /home/radi/Pulpit/SpaceViolence/battle/battle_classess.h
+
+1442732340 /home/radi/Pulpit/SpaceViolence/battle/battle_init.h
+
+1442850532 /home/radi/Pulpit/SpaceViolence/battle/battle_drawer.h
+
+1442927833 /home/radi/Pulpit/SpaceViolence/battle/battle.h
+
+1442651144 /home/radi/Pulpit/SpaceViolence/menu/menu.h
+
+1449047775 /media/kamil/workspace/Programowanie/,GRA/SpaceViolence/base/numbers.h
+
+1449047775 /media/kamil/workspace/Programowanie/,GRA/SpaceViolence/battle/classes/weapons.h
+
+1451332020 /media/kamil/workspace/Programowanie/,GRA/SpaceViolence/battle/classes/spaceship.h
+
+1451150794 /media/kamil/workspace/Programowanie/,GRA/SpaceViolence/battle/classes/bullets.h
+
+1449047775 /media/kamil/workspace/Programowanie/,GRA/SpaceViolence/battle/classes/souls.h
+
+1449047775 /media/kamil/workspace/Programowanie/,GRA/SpaceViolence/battle/classes/enemies.h
+
+1449047775 /media/kamil/workspace/Programowanie/,GRA/SpaceViolence/base/SFMLstream.h
+	"soundsManager.h"
+
+1445075919 /media/kamil/workspace/Programowanie/,GRA/SpaceViolence/battle/classes/dron.h
+
+1449050152 /media/kamil/workspace/Programowanie/,GRA/SpaceViolence/battle/classes/drone.h
+
+1449047775 /media/kamil/workspace/Programowanie/,GRA/SpaceViolence/menu/loadingScreen.h
+
+1449047775 /media/kamil/workspace/Programowanie/,GRA/SpaceViolence/base/soundsManager.h
+
+1449047775 /media/kamil/workspace/Programowanie/,GRA/SpaceViolence/base/tile.h
+
+1449047775 /media/kamil/workspace/Programowanie/,GRA/SpaceViolence/GUI/slider.h
+
+1449047775 /media/kamil/workspace/Programowanie/,GRA/SpaceViolence/menu/settingsScreen.h
+
+1449047775 /media/kamil/workspace/Programowanie/,GRA/SpaceViolence/base/safeNumbers.h
+
+1451414449 /media/kamil/workspace/Programowanie/,GRA/SpaceViolence/base/console.h
+
+1451399894 /media/kamil/workspace/Programowanie/,GRA/SpaceViolence/lua/LVM.h
+	"lua5.2/lua.h"
+	"lua5.2/lualib.h"
+	"lua5.2/lauxlib.h"
+
+1451415716 /media/kamil/workspace/Programowanie/,GRA/SpaceViolence/lua/api.h
+
+1451315635 /media/kamil/workspace/Programowanie/,GRA/SpaceViolence/lua/advencedAPI.h
+
+1452357149 /media/kamil/workspace/Programowanie/,GRA/SpaceViolence/base/list.h
+	<iostream>
+	<cstring>
+

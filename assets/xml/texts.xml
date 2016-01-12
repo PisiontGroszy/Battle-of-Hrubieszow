@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Root>
+    <Current lang="English"/>
+
+    <Lang lang="English">
+        <souls text="souls: "/>
+        <shield text="Shield:    "/>
+        <healthPoints text="HP:          "/>
+        <hatred text="Hatred: "/>
+    </Lang>
+
+    <Lang lang="Polish">
+        <souls text="dusze: "/>
+        <shield text="Tarcza:      "/>
+        <healthPoints text="HP:               "/>
+        <hatred text="Pogarda:  "/>
+    </Lang>
+</Root>
