@@ -46,6 +46,7 @@ using namespace rapidxml;
 
 #include "GUI/button.h"
 #include "GUI/slider.h"
+#include "GUI/checkbox.h"
 
 void menu();
 
