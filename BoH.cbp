@@ -29,6 +29,7 @@
 			<Add option="-Wall" />
 		</Compiler>
 		<Unit filename="GUI/button.h" />
+		<Unit filename="GUI/checkbox.h" />
 		<Unit filename="GUI/slider.h" />
 		<Unit filename="assets/fonts/BitFont.ttf" />
 		<Unit filename="assets/fonts/LICENSE (BitFont) PL.txt" />
