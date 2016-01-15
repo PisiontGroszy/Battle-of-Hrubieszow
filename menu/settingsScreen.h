@@ -31,17 +31,25 @@ void settingsScreen()
     sf::Event event;
 
     sf::Text musicSoundText;
-    musicSoundText.setFont(roboto);
-    musicSoundText.setCharacterSize(30);
-    musicSoundText.setPosition(screenCornerX + 430, screenCornerY + 10);
+    musicSoundText.setFont(bitFont);
+    musicSoundText.setCharacterSize(40);
+    musicSoundText.setPosition(screenCornerX + 430, screenCornerY);
 
     sf::Text inGameSoundText;
-    inGameSoundText.setFont(roboto);
-    inGameSoundText.setCharacterSize(30);
-    inGameSoundText.setPosition(screenCornerX + 430, screenCornerY + 50);
+    inGameSoundText.setFont(bitFont);
+    inGameSoundText.setCharacterSize(40);
+    inGameSoundText.setPosition(screenCornerX + 430, screenCornerY + 40);
+
+    sf::Text enableVsyncText;
+    enableVsyncText.setFont(bitFont);
+    enableVsyncText.setCharacterSize(40);
+    enableVsyncText.setString("(En/Dis)ables v-sync (reguires restart)");
+    enableVsyncText.setPosition(screenCornerX + 70, screenCornerY + 105);
 
     sf::gui::Slider musicSlider(textureManager, sf::Vector2f(screenCornerX + 10, screenCornerY + 30), 4, settings.getMusicVolume());
     sf::gui::Slider inGameSlider(textureManager, sf::Vector2f(screenCornerX + 10, screenCornerY + 70), 4, settings.getInGameVolume());
+
+    sf::gui::Checkbox enableVsync(textureManager, sf::Vector2f(screenCornerX + 10, screenCornerY + 110), 4, "assets/graphics/UI/checkbox/", settings.FPScontroller == "v-sync");
 
     for(bool exit = false; !exit;)
     {
@@ -69,6 +77,9 @@ void settingsScreen()
         app << inGameSoundText;
         app << inGameSlider;
 
+        app << enableVsyncText;
+        app << enableVsync;
+
         app << tmpCursor;
         //---------
 
@@ -80,6 +91,8 @@ void settingsScreen()
             musicSlider.update(event);
             inGameSlider.update(event);
 
+            enableVsync.update(event);
+
             if(QuitButton.funcDone)
                 exit = true;
             else if(SaveButton.funcDone)
@@ -89,6 +102,8 @@ void settingsScreen()
 
                 settings.setInGameVolume(inGameSlider.getCurrentStep());
                 app.soundsManager.setInGameVolume(settings.getInGameVolume());
+
+                settings.enableVsync(enableVsync.getCurrentState());
 
                 settings.save();
 

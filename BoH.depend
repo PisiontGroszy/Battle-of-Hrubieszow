@@ -497,7 +497,7 @@
 	<iostream>
 	<cstring>
 
-1452624227 source:/media/kamil/workspace/Programowanie/,GRA/Battle-of-Hrubieszow/main.cpp
+1452714799 source:/media/kamil/workspace/Programowanie/,GRA/Battle-of-Hrubieszow/main.cpp
 	<algorithm>
 	<string>
 	<iostream>
@@ -533,6 +533,7 @@
 	"base/spaceObjects.h"
 	"GUI/button.h"
 	"GUI/slider.h"
+	"GUI/checkbox.h"
 	"menu/settingsScreen.h"
 	"battle/pause.h"
 	"battle/battle_classess.h"
@@ -576,7 +577,7 @@
 
 1452624227 /media/kamil/workspace/Programowanie/,GRA/Battle-of-Hrubieszow/base/xmlReader.h
 
-1452624227 /media/kamil/workspace/Programowanie/,GRA/Battle-of-Hrubieszow/base/settings.h
+1452873548 /media/kamil/workspace/Programowanie/,GRA/Battle-of-Hrubieszow/base/settings.h
 
 1452624227 /media/kamil/workspace/Programowanie/,GRA/Battle-of-Hrubieszow/base/SFMLstream.h
 	"soundsManager.h"
@@ -607,7 +608,7 @@
 
 1452624227 /media/kamil/workspace/Programowanie/,GRA/Battle-of-Hrubieszow/GUI/slider.h
 
-1452624227 /media/kamil/workspace/Programowanie/,GRA/Battle-of-Hrubieszow/menu/settingsScreen.h
+1452873738 /media/kamil/workspace/Programowanie/,GRA/Battle-of-Hrubieszow/menu/settingsScreen.h
 
 1452624227 /media/kamil/workspace/Programowanie/,GRA/Battle-of-Hrubieszow/battle/pause.h
 
@@ -642,4 +643,6 @@
 1452624227 /media/kamil/workspace/Programowanie/,GRA/Battle-of-Hrubieszow/menu/menu.h
 
 1452624227 /media/kamil/workspace/Programowanie/,GRA/Battle-of-Hrubieszow/lua/advencedAPI.h
+
+1452873750 /media/kamil/workspace/Programowanie/,GRA/Battle-of-Hrubieszow/GUI/checkbox.h
 

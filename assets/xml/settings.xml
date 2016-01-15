@@ -1,6 +1,6 @@
 <Root>
 	<config playerUp="K_w" playerDown="K_s" playerRight="K_d" playerLeft="K_a" pause="K_esc" confirm="K_enter" playerShot="MB_l" droneShot="MB_r" dronesControl="K_f" nextWeapon="MS_u" previousWeapon="MS_d"/>
-	<sound globalVolume="50" musicVolume="100" inGameVolume="0"/>
+	<sound globalVolume="50" musicVolume="90" inGameVolume="0"/>
 	<personalization cursorScale="0.6" cursorAlpha="255"/>
 	<framerate controller="v-sync" fps="120"/>
 </Root>

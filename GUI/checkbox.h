@@ -16,9 +16,12 @@ namespace sf
 
             virtual void draw(sf::RenderTarget& target, sf::RenderStates states) const;
         public:
-            Checkbox(textureManager & tm, sf::Vector2f position, float _size, string dir);
+            Checkbox(textureManager & tm, sf::Vector2f position, float _size, string dir, bool _state);
+
             bool getCurrentState();
-            void update(Event event, sf::RenderWindow & app);
+            void setCurrentState(bool _state);
+
+            void update(Event event);
         };
 
         void Checkbox::draw(sf::RenderTarget& target, sf::RenderStates states) const
@@ -27,7 +30,7 @@ namespace sf
             target.draw(check, states);
         }
 
-        Checkbox::Checkbox(textureManager & tm, sf::Vector2f position, float _size, string dir)
+        Checkbox::Checkbox(textureManager & tm, sf::Vector2f position, float _size, string dir, bool _state)
         {
             tm.add(dir + "box.png");
             box.setTexture(*tm.get(dir + "box.png"));
@@ -39,19 +42,25 @@ namespace sf
             check.setScale(_size, _size);
             check.setPosition(position);
 
-            state = false;
+            state = _state;
             focus = false;
         }
+
         bool Checkbox::getCurrentState()
         {
             return state;
         }
-        void Checkbox::update(Event event, sf::RenderWindow & app)
+        void Checkbox::setCurrentState(bool _state)
+        {
+            state = _state;
+        }
+
+        void Checkbox::update(Event event)
         {
             if(!event.type == sf::Event::MouseButtonPressed and !event.type == sf::Event::MouseMoved)
                 return;
 
-            sf::Vector2f mouseCoords = sf::Vector2f(sf::Mouse::getPosition(app).x * viewScale + screenCornerX, sf::Mouse::getPosition(app).y * viewScale + screenCornerY);
+            sf::Vector2f mouseCoords = sf::Vector2f(sf::Mouse::getPosition().x * viewScale + screenCornerX, sf::Mouse::getPosition().y * viewScale + screenCornerY);
 
             if(event.type == sf::Event::MouseMoved)
                 focus = box.getGlobalBounds().contains(mouseCoords);

@@ -32,6 +32,8 @@ public:
 
     sf::Uint8 getGlobalVolume();
     void setGlobalVolume(sf::Uint8 volume);
+
+    void enableVsync(bool enable);
 };
 
 void Settings::load()
@@ -56,6 +58,7 @@ void Settings::load()
 void Settings::save()
 {
     xml_node<> *soundsNode = settingsFile -> getFirstNode("sound", settingsFile -> getRootNode());
+    xml_node<> *FPSnode = settingsFile -> getFirstNode("framerate", settingsFile -> getRootNode());
 
     ostringstream inGameVolumeSS, musicVolumeSS;
 
@@ -68,6 +71,7 @@ void Settings::save()
     //settingsFile -> setNodeAttribute(soundsNode, "globalVolume", itoa(getGlobalVolume()));
     settingsFile -> setNodeAttribute(soundsNode, "inGameVolume", inGameVolumeSSs.c_str());
     settingsFile -> setNodeAttribute(soundsNode, "musicVolume", musicVolumeSSs.c_str());
+    settingsFile -> setNodeAttribute(FPSnode, "controller", FPScontroller.c_str());
 }
 
 sf::Vector2f Settings::getCursorScale()
@@ -115,6 +119,11 @@ sf::Uint8 Settings::getGlobalVolume()
 void Settings::setGlobalVolume(sf::Uint8 volume)
 {
     globalVolume = volume;
+}
+
+void Settings::enableVsync(bool enable)
+{
+    FPScontroller = enable ? "v-sync" : "custom";
 }
 
 Settings settings;
