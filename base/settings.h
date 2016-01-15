@@ -60,17 +60,20 @@ void Settings::save()
     xml_node<> *soundsNode = settingsFile -> getFirstNode("sound", settingsFile -> getRootNode());
     xml_node<> *FPSnode = settingsFile -> getFirstNode("framerate", settingsFile -> getRootNode());
 
-    ostringstream inGameVolumeSS, musicVolumeSS;
+    ostringstream inGameVolumeSS, musicVolumeSS, globalVolumeSS;
 
+    globalVolumeSS << (int) getGlobalVolume();
     inGameVolumeSS << (int) getInGameVolume();
     musicVolumeSS << (int) getMusicVolume();
 
     const string inGameVolumeSSs(inGameVolumeSS.str());
+    const string globalVolumeSSs(globalVolumeSS.str());
     const string musicVolumeSSs(musicVolumeSS.str());
 
-    //settingsFile -> setNodeAttribute(soundsNode, "globalVolume", itoa(getGlobalVolume()));
+    settingsFile -> setNodeAttribute(soundsNode, "globalVolume", globalVolumeSSs.c_str());
     settingsFile -> setNodeAttribute(soundsNode, "inGameVolume", inGameVolumeSSs.c_str());
     settingsFile -> setNodeAttribute(soundsNode, "musicVolume", musicVolumeSSs.c_str());
+
     settingsFile -> setNodeAttribute(FPSnode, "controller", FPScontroller.c_str());
 }
 

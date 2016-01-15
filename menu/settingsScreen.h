@@ -40,16 +40,22 @@ void settingsScreen()
     inGameSoundText.setCharacterSize(40);
     inGameSoundText.setPosition(screenCornerX + 430, screenCornerY + 40);
 
+    sf::Text globalSoundText;
+    globalSoundText.setFont(bitFont);
+    globalSoundText.setCharacterSize(40);
+    globalSoundText.setPosition(screenCornerX + 430, screenCornerY + 80);
+
     sf::Text enableVsyncText;
     enableVsyncText.setFont(bitFont);
     enableVsyncText.setCharacterSize(40);
     enableVsyncText.setString("(En/Dis)ables v-sync (reguires restart)");
-    enableVsyncText.setPosition(screenCornerX + 70, screenCornerY + 105);
+    enableVsyncText.setPosition(screenCornerX + 70, screenCornerY + 145);
 
     sf::gui::Slider musicSlider(textureManager, sf::Vector2f(screenCornerX + 10, screenCornerY + 30), 4, settings.getMusicVolume());
     sf::gui::Slider inGameSlider(textureManager, sf::Vector2f(screenCornerX + 10, screenCornerY + 70), 4, settings.getInGameVolume());
+    sf::gui::Slider globalSlider(textureManager, sf::Vector2f(screenCornerX + 10, screenCornerY + 110), 4, settings.getGlobalVolume());
 
-    sf::gui::Checkbox enableVsync(textureManager, sf::Vector2f(screenCornerX + 10, screenCornerY + 110), 4, "assets/graphics/UI/checkbox/", settings.FPScontroller == "v-sync");
+    sf::gui::Checkbox enableVsync(textureManager, sf::Vector2f(screenCornerX + 10, screenCornerY + 150), 2, "assets/graphics/UI/checkbox/", settings.FPScontroller == "v-sync");
 
     for(bool exit = false; !exit;)
     {
@@ -65,6 +71,11 @@ void settingsScreen()
         inGameSS << inGameSlider.getCurrentStep();
         inGameSoundText.setString(inGameSS.str());
 
+        ostringstream globalSS;
+        globalSS << "Global volume: ";
+        globalSS << globalSlider.getCurrentStep();
+        globalSoundText.setString(globalSS.str());
+
         //Rysowanie
         app << screenshot;
 
@@ -76,6 +87,9 @@ void settingsScreen()
 
         app << inGameSoundText;
         app << inGameSlider;
+
+        app << globalSoundText;
+        app << globalSlider;
 
         app << enableVsyncText;
         app << enableVsync;
@@ -90,23 +104,33 @@ void settingsScreen()
 
             musicSlider.update(event);
             inGameSlider.update(event);
+            globalSlider.update(event);
 
             enableVsync.update(event);
 
             if(QuitButton.funcDone)
                 exit = true;
+
             else if(SaveButton.funcDone)
             {
+                cout << endl << "-----Saving settings (" << date() << ")-----" << endl;
+
                 settings.setMusicVolume(musicSlider.getCurrentStep());
                 app.soundsManager.getMusic() -> setVolume(settings.getMusicVolume());
+                cout << "Music volume set to: " << (int) settings.getMusicVolume() << endl;
 
                 settings.setInGameVolume(inGameSlider.getCurrentStep());
                 app.soundsManager.setInGameVolume(settings.getInGameVolume());
+                cout << "In-game volume set to: " << (int) settings.getInGameVolume() << endl;
+
+                settings.setGlobalVolume(globalSlider.getCurrentStep());
+                app.soundsManager.setGlobalVolume(settings.getGlobalVolume());
+                cout << "Global volume set to: " << (int) settings.getGlobalVolume() << endl;
 
                 settings.enableVsync(enableVsync.getCurrentState());
+                cout << "V-Sync " << (enableVsync.getCurrentState() ? "En" : "Dis") << "abled" << endl;
 
                 settings.save();
-
                 SaveButton.funcDone = false;
             }
         }
