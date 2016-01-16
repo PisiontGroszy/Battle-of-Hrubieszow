@@ -59,22 +59,37 @@ void Settings::save()
 {
     xml_node<> *soundsNode = settingsFile -> getFirstNode("sound", settingsFile -> getRootNode());
     xml_node<> *FPSnode = settingsFile -> getFirstNode("framerate", settingsFile -> getRootNode());
+    xml_node<> *personalizeNode = settingsFile -> getFirstNode("personalization", settingsFile -> getRootNode());
 
-    ostringstream inGameVolumeSS, musicVolumeSS, globalVolumeSS;
+    ostringstream inGameVolumeSS, musicVolumeSS, globalVolumeSS, fpsLimitSS, cursorAlphaSS, cursorScaleSS;
 
     globalVolumeSS << (int) getGlobalVolume();
     inGameVolumeSS << (int) getInGameVolume();
     musicVolumeSS << (int) getMusicVolume();
 
+    fpsLimitSS << (int) FPSlimit;
+
+    cursorAlphaSS << (int) cursorAlpha;
+    cursorScaleSS << (float) cursorScale.x;
+
     const string inGameVolumeSSs(inGameVolumeSS.str());
     const string globalVolumeSSs(globalVolumeSS.str());
     const string musicVolumeSSs(musicVolumeSS.str());
+
+    const string fpsLimitSSs(fpsLimitSS.str());
+
+    const string cursorAlphaSSs(cursorAlphaSS.str());
+    const string cursorScaleSSs(cursorScaleSS.str());
 
     settingsFile -> setNodeAttribute(soundsNode, "globalVolume", globalVolumeSSs.c_str());
     settingsFile -> setNodeAttribute(soundsNode, "inGameVolume", inGameVolumeSSs.c_str());
     settingsFile -> setNodeAttribute(soundsNode, "musicVolume", musicVolumeSSs.c_str());
 
     settingsFile -> setNodeAttribute(FPSnode, "controller", FPScontroller.c_str());
+    settingsFile -> setNodeAttribute(FPSnode, "fps", fpsLimitSSs.c_str());
+
+    settingsFile -> setNodeAttribute(personalizeNode, "cursorScale", cursorScaleSSs.c_str());
+    settingsFile -> setNodeAttribute(personalizeNode, "cursorAlpha", cursorAlphaSSs.c_str());
 }
 
 sf::Vector2f Settings::getCursorScale()
