@@ -101,11 +101,11 @@ namespace space
         momentumX = 0.f;
         momentumY = 0.f;
 
-        HP.setFont(roboto);
-        Size.setFont(roboto);
+        HP.setFont(bitFont);
+        Size.setFont(bitFont);
 
-        HP.setCharacterSize(50);
-        Size.setCharacterSize(70);
+        HP.setCharacterSize(70);
+        Size.setCharacterSize(90);
     }
 
     void meteor::create()
