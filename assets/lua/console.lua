@@ -1,5 +1,8 @@
 writeln(ID, "Hi you hateful motherfucker, let's kill someone!")
 local cheats = 0
+
+ammoSet(-1)
+
 while true do --Główna pętla
     local a = read(ID)
     --Ogólnodostępne

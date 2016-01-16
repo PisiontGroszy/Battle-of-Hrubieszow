@@ -266,8 +266,8 @@ namespace space
 
     void meteor::push(sf::Vector2f vect, int mass)
     {
-        momentumX += (vect.x * mass) / currentParts;
-        momentumY += (vect.y * mass) / currentParts;
+        momentumX += (vect.x * mass) / ((currentParts + 50) * 15);
+        momentumY += (vect.y * mass) / ((currentParts + 50) * 15);
 
         moving = true;
     }

@@ -797,7 +797,7 @@
 
 1452925033 /home/radi/Pulpit/Battle-of-Hrubieszow/lua/advencedAPI.h
 
-1452925033 source:/home/radi/Pulpit/gra/Battle-of-Hrubieszow/main.cpp
+1452937745 source:/home/radi/Pulpit/gra/Battle-of-Hrubieszow/main.cpp
 	<algorithm>
 	<string>
 	<iostream>
@@ -845,77 +845,77 @@
 	"menu/menu.h"
 	"lua/advencedAPI.h"
 
-1452925032 /home/radi/Pulpit/gra/Battle-of-Hrubieszow/RapidXML/rapidxml.hpp
+1452936865 /home/radi/Pulpit/gra/Battle-of-Hrubieszow/RapidXML/rapidxml.hpp
 	<cstdlib>
 	<cassert>
 	<new>
 	<exception>
 
-1452925032 /home/radi/Pulpit/gra/Battle-of-Hrubieszow/RapidXML/rapidxml_utils.hpp
+1452936865 /home/radi/Pulpit/gra/Battle-of-Hrubieszow/RapidXML/rapidxml_utils.hpp
 	"rapidxml.hpp"
 	<vector>
 	<string>
 	<fstream>
 	<stdexcept>
 
-1452925032 /home/radi/Pulpit/gra/Battle-of-Hrubieszow/RapidXML/rapidxml_print.hpp
+1452936865 /home/radi/Pulpit/gra/Battle-of-Hrubieszow/RapidXML/rapidxml_print.hpp
 	"rapidxml.hpp"
 	<ostream>
 	<iterator>
 
-1452925033 /home/radi/Pulpit/gra/Battle-of-Hrubieszow/lua/LVM.h
+1452936865 /home/radi/Pulpit/gra/Battle-of-Hrubieszow/lua/LVM.h
 	"lua5.2/lua.h"
 	"lua5.2/lualib.h"
 	"lua5.2/lauxlib.h"
 
-1452925033 /home/radi/Pulpit/gra/Battle-of-Hrubieszow/lua/api.h
+1452936865 /home/radi/Pulpit/gra/Battle-of-Hrubieszow/lua/api.h
 
-1452925033 /home/radi/Pulpit/gra/Battle-of-Hrubieszow/collision/collision.h
+1452936865 /home/radi/Pulpit/gra/Battle-of-Hrubieszow/collision/collision.h
 
-1452925033 /home/radi/Pulpit/gra/Battle-of-Hrubieszow/base/safeNumbers.h
+1452936865 /home/radi/Pulpit/gra/Battle-of-Hrubieszow/base/safeNumbers.h
 
-1452925033 /home/radi/Pulpit/gra/Battle-of-Hrubieszow/base/math.h
+1452936865 /home/radi/Pulpit/gra/Battle-of-Hrubieszow/base/math.h
 
-1452925033 /home/radi/Pulpit/gra/Battle-of-Hrubieszow/base/xmlReader.h
+1452936865 /home/radi/Pulpit/gra/Battle-of-Hrubieszow/base/xmlReader.h
 
-1452925033 /home/radi/Pulpit/gra/Battle-of-Hrubieszow/base/settings.h
+1452936865 /home/radi/Pulpit/gra/Battle-of-Hrubieszow/base/settings.h
 
-1452925033 /home/radi/Pulpit/gra/Battle-of-Hrubieszow/base/SFMLstream.h
+1452936865 /home/radi/Pulpit/gra/Battle-of-Hrubieszow/base/SFMLstream.h
 	"soundsManager.h"
 
-1452925033 /home/radi/Pulpit/gra/Battle-of-Hrubieszow/base/soundsManager.h
+1452936865 /home/radi/Pulpit/gra/Battle-of-Hrubieszow/base/soundsManager.h
 
-1452925033 /home/radi/Pulpit/gra/Battle-of-Hrubieszow/base/languages.h
+1452936865 /home/radi/Pulpit/gra/Battle-of-Hrubieszow/base/languages.h
 
-1452925033 /home/radi/Pulpit/gra/Battle-of-Hrubieszow/base/textureManager.h
+1452936865 /home/radi/Pulpit/gra/Battle-of-Hrubieszow/base/textureManager.h
 
-1452925033 /home/radi/Pulpit/gra/Battle-of-Hrubieszow/base/preinit.h
+1452938277 /home/radi/Pulpit/gra/Battle-of-Hrubieszow/base/preinit.h
 
-1452925033 /home/radi/Pulpit/gra/Battle-of-Hrubieszow/base/cursor.h
+1452936865 /home/radi/Pulpit/gra/Battle-of-Hrubieszow/base/cursor.h
 
-1452925033 /home/radi/Pulpit/gra/Battle-of-Hrubieszow/base/animation.h
+1452936865 /home/radi/Pulpit/gra/Battle-of-Hrubieszow/base/animation.h
 
-1452925033 /home/radi/Pulpit/gra/Battle-of-Hrubieszow/base/controls.h
+1452936865 /home/radi/Pulpit/gra/Battle-of-Hrubieszow/base/controls.h
 
-1452925033 /home/radi/Pulpit/gra/Battle-of-Hrubieszow/base/tile.h
+1452936865 /home/radi/Pulpit/gra/Battle-of-Hrubieszow/base/tile.h
 
-1452925033 /home/radi/Pulpit/gra/Battle-of-Hrubieszow/base/console.h
+1452939138 /home/radi/Pulpit/gra/Battle-of-Hrubieszow/base/console.h
 
-1452925033 /home/radi/Pulpit/gra/Battle-of-Hrubieszow/base/numbers.h
+1452936865 /home/radi/Pulpit/gra/Battle-of-Hrubieszow/base/numbers.h
 
-1452930010 /home/radi/Pulpit/gra/Battle-of-Hrubieszow/base/spaceObjects.h
+1452937247 /home/radi/Pulpit/gra/Battle-of-Hrubieszow/base/spaceObjects.h
 
-1452925032 /home/radi/Pulpit/gra/Battle-of-Hrubieszow/GUI/button.h
+1452936865 /home/radi/Pulpit/gra/Battle-of-Hrubieszow/GUI/button.h
 
-1452925032 /home/radi/Pulpit/gra/Battle-of-Hrubieszow/GUI/slider.h
+1452936865 /home/radi/Pulpit/gra/Battle-of-Hrubieszow/GUI/slider.h
 
-1452925032 /home/radi/Pulpit/gra/Battle-of-Hrubieszow/GUI/checkbox.h
+1452936865 /home/radi/Pulpit/gra/Battle-of-Hrubieszow/GUI/checkbox.h
 
-1452925482 /home/radi/Pulpit/gra/Battle-of-Hrubieszow/menu/settingsScreen.h
+1452936865 /home/radi/Pulpit/gra/Battle-of-Hrubieszow/menu/settingsScreen.h
 
-1452925033 /home/radi/Pulpit/gra/Battle-of-Hrubieszow/battle/pause.h
+1452936865 /home/radi/Pulpit/gra/Battle-of-Hrubieszow/battle/pause.h
 
-1452925033 /home/radi/Pulpit/gra/Battle-of-Hrubieszow/battle/battle_classess.h
+1452936865 /home/radi/Pulpit/gra/Battle-of-Hrubieszow/battle/battle_classess.h
 	"classes/weapons.h"
 	"classes/drone.h"
 	"classes/spaceship.h"
@@ -923,27 +923,27 @@
 	"classes/souls.h"
 	"classes/enemies.h"
 
-1452925033 /home/radi/Pulpit/gra/Battle-of-Hrubieszow/battle/classes/weapons.h
+1452936865 /home/radi/Pulpit/gra/Battle-of-Hrubieszow/battle/classes/weapons.h
 
-1452925033 /home/radi/Pulpit/gra/Battle-of-Hrubieszow/battle/classes/drone.h
+1452936865 /home/radi/Pulpit/gra/Battle-of-Hrubieszow/battle/classes/drone.h
 
-1452925033 /home/radi/Pulpit/gra/Battle-of-Hrubieszow/battle/classes/spaceship.h
+1452939138 /home/radi/Pulpit/gra/Battle-of-Hrubieszow/battle/classes/spaceship.h
 
-1452925033 /home/radi/Pulpit/gra/Battle-of-Hrubieszow/battle/classes/bullets.h
+1452936865 /home/radi/Pulpit/gra/Battle-of-Hrubieszow/battle/classes/bullets.h
 
-1452925033 /home/radi/Pulpit/gra/Battle-of-Hrubieszow/battle/classes/souls.h
+1452936865 /home/radi/Pulpit/gra/Battle-of-Hrubieszow/battle/classes/souls.h
 
-1452925033 /home/radi/Pulpit/gra/Battle-of-Hrubieszow/battle/classes/enemies.h
+1452936865 /home/radi/Pulpit/gra/Battle-of-Hrubieszow/battle/classes/enemies.h
 
-1452925033 /home/radi/Pulpit/gra/Battle-of-Hrubieszow/battle/battle_init.h
+1452936865 /home/radi/Pulpit/gra/Battle-of-Hrubieszow/battle/battle_init.h
 
-1452925033 /home/radi/Pulpit/gra/Battle-of-Hrubieszow/battle/battle_drawer.h
+1452937869 /home/radi/Pulpit/gra/Battle-of-Hrubieszow/battle/battle_drawer.h
 
-1452925033 /home/radi/Pulpit/gra/Battle-of-Hrubieszow/battle/battle.h
+1452939143 /home/radi/Pulpit/gra/Battle-of-Hrubieszow/battle/battle.h
 
-1452925033 /home/radi/Pulpit/gra/Battle-of-Hrubieszow/menu/loadingScreen.h
+1452936865 /home/radi/Pulpit/gra/Battle-of-Hrubieszow/menu/loadingScreen.h
 
-1452925033 /home/radi/Pulpit/gra/Battle-of-Hrubieszow/menu/menu.h
+1452936865 /home/radi/Pulpit/gra/Battle-of-Hrubieszow/menu/menu.h
 
-1452925033 /home/radi/Pulpit/gra/Battle-of-Hrubieszow/lua/advencedAPI.h
+1452939138 /home/radi/Pulpit/gra/Battle-of-Hrubieszow/lua/advencedAPI.h
 

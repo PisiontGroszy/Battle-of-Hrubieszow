@@ -93,14 +93,14 @@ void battle()
 
     releaseButton.setPosition(screenX + screenCornerX - 158, screenY + screenCornerY - 100);
 
-    shieldText.setPosition(screenX + screenCornerX - 335, screenY + screenCornerY - 60);
+    shieldText.setPosition(screenX + screenCornerX - 335, screenY + screenCornerY - 67);
     shieldBar.setPosition(screenX + screenCornerX - 240, screenY + screenCornerY - 59);
 
-    ammoText.setPosition(screenX + screenCornerX - 335, screenY + screenCornerY - 75);
+    ammoText.setPosition(screenX + screenCornerX - 335, screenY + screenCornerY - 82);
     ammoBar.setPosition(screenX + screenCornerX - 240, screenY + screenCornerY - 74);
     noAmmoBar.setPosition(screenX + screenCornerX - 240, screenY + screenCornerY - 74);
 
-    HPtext.setPosition(screenX + screenCornerX - 335, screenY + screenCornerY - 45);
+    HPtext.setPosition(screenX + screenCornerX - 335, screenY + screenCornerY - 52);
     HPbar.setPosition(screenX + screenCornerX - 240, screenY + screenCornerY - 44);
 
     FPStext.setPosition(screenCornerX + screenX - 110, screenCornerY);

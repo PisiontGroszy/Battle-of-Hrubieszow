@@ -122,16 +122,16 @@ int main()
     XPtext.setCharacterSize(50);
     XPtext.setColor(sf::Color::White);
 
-    HPtext.setFont(roboto);
-    HPtext.setCharacterSize(10);
+    HPtext.setFont(bitFont);
+    HPtext.setCharacterSize(20);
     HPtext.setColor(sf::Color::White);
 
-    shieldText.setFont(roboto);
-    shieldText.setCharacterSize(10);
+    shieldText.setFont(bitFont);
+    shieldText.setCharacterSize(20);
     shieldText.setColor(sf::Color::White);
 
-    ammoText.setFont(roboto);
-    ammoText.setCharacterSize(10);
+    ammoText.setFont(bitFont);
+    ammoText.setCharacterSize(20);
     ammoText.setColor(sf::Color::White);
 
     releaseButton.setFont(bitFont);

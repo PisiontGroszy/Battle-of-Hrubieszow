@@ -52,12 +52,14 @@ namespace sf
 
             consoleShape.setSize(static_cast<sf::Vector2f>(consoleSize));
             consoleShape.setFillColor(color);
+            consoleShape.setOutlineColor(sf::Color(255, 255, 255));
+            consoleShape.setOutlineThickness(3);
 
             cursorShape.setSize(sf::Vector2f(2.f, 15.f));
-            cursorShape.setFillColor(sf::Color(20, 240, 20));
+            cursorShape.setFillColor(sf::Color(20, 255, 20));
 
             currentCommandText.setCharacterSize(15);
-            currentCommandText.setColor(sf::Color(20, 240, 20));
+            currentCommandText.setColor(sf::Color(20, 255, 20));
             currentCommandText.setFont(roboto);
 
             currentCommand = "$ ";
@@ -71,6 +73,7 @@ namespace sf
 
             LVM -> registerFunc("SHset", (void*) gameApi::api_SHset);
             LVM -> registerFunc("HPset", (void*) gameApi::api_HPset);
+
             LVM -> registerFunc("SHgetMax", (void*) gameApi::api_SHgetMax);
             LVM -> registerFunc("HPgetMax", (void*) gameApi::api_HPgetMax);
 
@@ -156,7 +159,7 @@ namespace sf
                 commands.push_back(currentCommand);
                 currentCommand.clear();
                 currentCommand = "$ ";
-                printData(string("$") + commands[commands.size() - 1], sf::Color(20, 240, 20));
+                printData(string("$") + commands[commands.size() - 1], sf::Color(20, 255, 20));
                 LVM -> putstring(commands[commands.size() - 1]);
                 cursorPos = 1;
             }
