@@ -80,7 +80,7 @@ void settingsScreen()
     //--------------------
 
     //Kontrolki od grafiki
-    sf::gui::Checkbox enableVsync(textureManager, sf::Vector2f(screenCornerX + 10, screenCornerY + 265), 2, "assets/graphics/UI/checkbox/", settings.FPScontroller == "v-sync");
+    sf::gui::Checkbox enableVsync(textureManager, sf::Vector2f(screenCornerX + 10, screenCornerY + 265), 4.f, "assets/graphics/UI/checkbox/", settings.FPScontroller == "v-sync");
 
     sf::gui::Slider cursorScaleSlider(textureManager, sf::Vector2f(screenCornerX + 10, screenCornerY + 330), 4, Map(settings.getCursorScale().x, 0.1f, 2.f, 0, 100));
     sf::gui::Slider cursorAlphaSlider(textureManager, sf::Vector2f(screenCornerX + 10, screenCornerY + 370), 4, Map(settings.getCursorAplha(), 0, 255, 0, 100));
